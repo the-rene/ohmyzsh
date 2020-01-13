@@ -171,7 +171,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/the-rene/ohmyzsh/master/to
 
 The install script also accepts these variables to allow installation of a different repository:
 
-- `REPO` (default: `ohmyzsh/ohmyzsh`): this takes the form of `owner/repository`. If you set
+- `REPO` (default: `the-rene/ohmyzsh`): this takes the form of `owner/repository`. If you set
   this variable, the installer will look for a repository at `https://github.com/{owner}/{repository}`.
 
 - `REMOTE` (default: `https://github.com/${REPO}.git`): this is the full URL of the git repository
